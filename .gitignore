@@ -1,0 +1,31 @@
+# === Backend (Spring Boot) ===
+# Compiled files
+target/
+*.jar
+*.war
+*.ear
+*.class
+bin/
+
+# IDE files
+.settings/
+.idea/
+.metadata/
+*.iml
+*.ipr
+*.iws
+
+# === Frontend (Angular) ===
+node_modules/
+dist/
+.cache/
+.angular/
+.env
+*.log
+
+# === General ===
+.DS_Store (Mac)
+Thumbs.db (Windows)
+*.env
+*.keystore
+application.properties  # Remove if it contains passwords/secrets
